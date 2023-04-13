@@ -1,0 +1,32 @@
+[
+  {
+    "inputs": [
+      { "internalType": "int8[]", "name": "arr", "type": "int8[]" },
+      { "internalType": "int8", "name": "element", "type": "int8" }
+    ],
+    "name": "addElement",
+    "outputs": [{ "internalType": "int8[]", "name": "", "type": "int8[]" }],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "bytes", "name": "bytecode", "type": "bytes" },
+      { "internalType": "int8[]", "name": "stack", "type": "int8[]" }
+    ],
+    "name": "execute",
+    "outputs": [{ "internalType": "int8[]", "name": "", "type": "int8[]" }],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "int8[]", "name": "arr", "type": "int8[]" },
+      { "internalType": "uint256", "name": "elements", "type": "uint256" }
+    ],
+    "name": "removeLastElements",
+    "outputs": [{ "internalType": "int8[]", "name": "", "type": "int8[]" }],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]
